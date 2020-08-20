@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      table{
+        width:100%;
+        /* If the table has collapsed borders, "border-spacing has no effect"*/
+        border-spacing:15px;
+      }
+
+      table, th, tr, td{
+        border:1px solid black;
+        border-collapse: collapse;
+      }
+      tr td{
+        padding: 10px;
+
+      }
+      #conInfo th{
+        background-color: gray;
+        color: white;
+      }
+      #conInfo tr:nth-child(even){
+        background-color: lightGray;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- HTML tables-->
+      <table id="empInfo">
+        <caption><b>Employee Information</b></caption>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Employee ID</th>
+          <th>Date of Birth</th>
+        </tr>
+        <tr>
+          <td>Muhammad</td>
+          <td>Mian</td>
+          <td>SH-Dev009</td>
+          <td>01-37-3378</td>
+        </tr>
+        <tr>
+          <td>Mohammed</td>
+          <td>tarafdar</td>
+          <td>SH-Dev011</td>
+          <td>34-33-3478</td>
+        </tr>
+        <tr>
+          <td>Md</td>
+          <td>Rahman</td>
+          <td>SH-Dev019</td>
+          <td>47-37-3578</td>
+        </tr>
+        <tr>
+          <td>Mohammed</td>
+          <td>Rahman</td>
+          <td>SH-QA003</td>
+          <td>34-37-3178</td>
+        </tr>
+      </table>
+      <br>
+
+      <table id="conInfo">
+        <caption><b>Employee Contact Information</b></caption>
+        <tr>
+          <th>Employee ID</th>
+          <th colspan="2">Phone Number</th>
+          <th colspan="3">Address</th>
+
+        </tr>
+        <tr>
+          <td>SH-Dev009</td>
+          <td>347-337-1234</td>
+          <td>657-345-6789</td>
+          <td>120 Foster Ave</td>
+          <td>Apt 7c, Queens</td>
+          <td>NY-11234, USA</td>
+        </tr>
+        <tr>
+          <td>SH-Dev011</td>
+          <td>348-357-3234</td>
+          <td>659-345-6789</td>
+          <td>124 Fost Ave</td>
+          <td>Apt 2c, Queens</td>
+          <td>NY-11234, USA</td>
+        </tr>
+        <tr>
+          <td>SH-Dev019</td>
+          <td>348-357-3234</td>
+          <td>659-345-6789</td>
+          <td>180 Broadway Ave</td>
+          <td>Apt 3c, Bronx</td>
+          <td>NY-10234, USA</td>
+        </tr>
+        <tr>
+          <td>SH-QA003</td>
+          <td>348-357-3234</td>
+          <td>659-345-6789</td>
+          <td>20 Briton Ave</td>
+          <td>Apt 6c, Bronx</td>
+          <td>NY-10234, USA</td>
+        </tr>
+      </table>
+
+
+    </section>
+    
+
+  </body>
+</html>
