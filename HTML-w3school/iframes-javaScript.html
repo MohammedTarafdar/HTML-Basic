@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+
+  <section>
+    <h1>HTML Iframes</h1>
+    <div class="">
+      <p>An HTML iframe is used to display a web page withen a web page.</p>
+
+      <p>The HTML iframe tag specifies an inline frame. Aninline frame is used to embed another document within the current
+        HTML document.</p>
+      <iframe src="https://www.w3schools.com" title="youtube video" width="90%" height="350"></iframe>
+    </div>
+
+    <div class="iframe-two">
+      <p>By default, an iframe has a border around it. To remove the border, add the style attribute and use the css border property.</p>
+      <iframe src="table.html" title="html document" style="border:none" width="90%" height="300"></iframe>
+    </div>
+    <div class="">
+      <p>Tip: This is a good practic to always include a title attribute for the "iframe". This is used by scrine
+        readers to read out what the content of iframe is.</p>
+    </div>
+    <hr>
+  </section>
+
+  <section>
+    <h1>HTML JavaScript</h1>
+    <p>JavaScript makes HTML pages more dynamic and interactive.</p>
+    <h3>My First JavaScript</h3>
+    <p>JavaScript can change the content of an HTML element:</p>
+    <button type="button" name="button" onclick="myFunction">Click me!</button>
+    <p id="demo">This is a demo for JavaScript</p>
+    <p>I don't know why it does not work !</p>
+
+  </section>
+
+
+
+
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript !"
+    }
+  </script>
+
+
+
+
+
+</body>
+
+</html>
